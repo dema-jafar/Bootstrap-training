@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start navbar */
+.navbar {
+    background-color: #19283f;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item .active,
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #33d1c3;
+}
+
+.navbar .search {
+    border-left: 1px solid #33d1c3;
+}
+
+.navbar .search i {
+    color: #33d1c3;
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: #33d1c3;
+}
+/* end navbar */
+
