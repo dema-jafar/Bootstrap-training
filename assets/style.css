@@ -43,3 +43,10 @@
 }
 /* end navbar */
 
+/* start landing */
+.landing {
+    background-color: #19283f;
+    height: calc(100vh - 72px);
+}
+/* end landing */
+
