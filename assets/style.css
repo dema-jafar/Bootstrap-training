@@ -147,3 +147,22 @@
     background-color: #19283f;
 }
 /* end project */
+
+/* start subscribe */
+.subscribe input[type=email] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.subscribe input[type=email]::placeholder {
+    color: white;
+}
+
+.subscribe input[type=email]:focus {
+    outline: none;
+}
+
+.subscribe input[type=submit] {
+    background-color: #19283f;
+}
+/* end subscribe */
