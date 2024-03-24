@@ -130,3 +130,15 @@
 }
 /* end portfolio */
 
+/* start about */
+.about .desc {
+    max-width: 500px;
+}
+/* end about */
+
+/* start team */
+.team {
+    background-color: #eff7fa;
+}
+/* end team */
+
