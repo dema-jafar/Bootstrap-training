@@ -84,4 +84,49 @@
 }
 /* end services */
 
+/* start portfolio */
+.portfolio {
+    background-color: #eff7fa;
+}
+
+.portfolio ul li {
+    padding: 0.5rem 1rem;
+}
+
+.portfolio ul li:not(.active):hover a{
+    color: #ff3150;
+}
+
+.portfolio ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.portfolio .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio .box::before {
+    content: attr(data-box);
+    position: absolute;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: rgb(51 209 195 / 50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(calc(-100% - 5px));
+    transition: 0.5s;
+}
+
+.portfolio .box:hover:before {
+    transform: translateX(0);
+}
+/* end portfolio */
 
