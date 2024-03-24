@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.title:after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #33d1c3;
+    transform: translateX(-50%);
+}
 /* start navbar */
 .navbar {
     background-color: #19283f;
@@ -49,4 +57,31 @@
     height: calc(100vh - 72px);
 }
 /* end landing */
+
+/* start services */
+
+.services .serv .icons .num,
+.services .serv .icons .pencil {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.services .serv .icons {
+    height: 250px;
+}
+
+.services .serv .icons .num {
+    color: #eff7fa;
+    font-size: 12rem;
+}
+
+.services .serv .icons .pencil {
+    color: #33d1c3;
+}
+
+.services .serv h4 {
+    color: #ffc400;
+}
+/* end services */
+
 
