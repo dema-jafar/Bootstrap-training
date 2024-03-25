@@ -166,3 +166,25 @@
     background-color: #19283f;
 }
 /* end subscribe */
+
+/* start footer */
+footer {
+    background-color: #19283f;
+}
+
+.facebook {
+    background-color: #1877f2;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.linkedin {
+    background-color: #0a66c2;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+/* end footer */
