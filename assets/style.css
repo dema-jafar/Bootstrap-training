@@ -188,3 +188,8 @@ footer {
     background-color: #ff0000;
 }
 /* end footer */
+@media (max-width:786px){
+	.blog .row {
+		gap:1rem;
+	}
+}
